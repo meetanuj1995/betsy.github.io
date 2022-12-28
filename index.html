@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Betsy</title>
+  <link rel="shortcut icon" href="icon.png">
+
+  <!-- Google Fonts -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="Styles.css">
+
+  <!-- Font Awesome -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-------------------- Dice Game --------------------------->
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+  <div class="container-fluid">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand name" href="">Betsy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">    
+              <a class="nav-link" href="#footer">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#pricing">Sign-up</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+          </li>
+      </ul>
+   </div>
+  </nav>
+
+
+
+    <!-- Title -->
+
+    <div class="row">
+
+      <div class="col-lg-6">
+      <h1>A social media where real opinions really matter.</h1>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+     </div>
+     <div class="col-lg-6">
+        <img class="title-image" src="https://images.pexels.com/photos/7594373/pexels-photo-7594373.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="image">
+      </div>
+
+  </div>
+</div>
+
+  </section>
+
+    <!-- Features -->
+
+    <section id="features">
+
+        <div class="row">
+    
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-circle-check fa-3x"></i>
+            <h3>Easy to use.</h3>
+            <p>Support all the regular features of social media.</p>
+          </div>
+      
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-heart fa-3x"></i>
+            <h3>Generate content.</h3>
+            <p>Likes, comments on
+                other people’s contents.</p>
+          </div>
+      
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-bullseye fa-3x"></i>
+            <h3>Tournament.</h3>
+            <p>Multiple bets clubbed together to form a tournament.</p>
+          </div>
+      
+        </div>
+    
+      </section>
+ <!------------------------------- Dice Game ---------------------------------------------->
+
+ <section id="game">
+
+  <h1 class="game_title">Let the bet begin</h1>
+   
+  <div class="contain">
+    <div class="dice">
+      <img src="dice4.png" id="die-1">
+    </div>
+
+    <div class="dice">
+      <img src="dice3.png" id="die-2">
+    </div>
+
+    <br>
+
+    <p id="total">Guess the sum </p>
+
+    <button onclick="roll()" class="roll_button">Roll the dice</button>
+
+  </div>
+  
+ </section>
+
+ <script src="index.js"></script>
+
+</body>
+
+
+    
+
